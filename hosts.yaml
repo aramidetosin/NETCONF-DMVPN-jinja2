@@ -1,0 +1,36 @@
+---
+HUB-R1:
+  hostname: 192.168.1.111
+  port: 830
+  username: cisco
+  password: cisco
+  platform: ios
+  connection_options:
+    netconf:
+        extras:
+            allow_agent: False
+            hostkey_verify: False
+
+SPOKE1-R2:
+  hostname: 192.168.1.112
+  port: 830
+  username: cisco
+  password: cisco
+  platform: ios
+  connection_options:
+    netconf:
+        extras:
+            allow_agent: False
+            hostkey_verify: False
+
+SPOKE2-R3:
+  hostname: 192.168.1.113
+  port: 830
+  username: cisco
+  password: cisco
+  platform: ios
+  connection_options:
+    netconf:
+        extras:
+            allow_agent: False
+            hostkey_verify: False
